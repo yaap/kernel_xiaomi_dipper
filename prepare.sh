@@ -1,7 +1,5 @@
 apt-get update
 apt-get install -y build-essential bc python curl git zip ftp gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libssl-dev lftp zstd wget libfl-dev 
-git fetch --all
-git checkout origin/lineage-17.1
 
 cd $HOME
 rm -rf AnyKernel3
